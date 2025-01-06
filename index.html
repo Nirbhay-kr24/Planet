@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+  <!--Font Popins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" />
+
+  <!-- swipe css -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+<!-- css -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Space website </title>
+</head>
+
+<body>
+
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo" aria-label="Home">
+        <img src="assets/img/logo.svg" alt="Planet logo" />
+        Planet
+      </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+          <li>
+            <a href="#travel" class="nav__link">SOLAR SYSTEM</a>
+          </li>
+          <li>
+            <a href="#exploration" class="nav__link">ISRO</a>
+          </li>
+          <li>
+            <a href="#history" class="nav__link">History</a>
+          </li>
+        </ul>
+
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close" title="Close navigation menu">
+          <i class="ri-close-large-line"></i>
+        </div>
+
+        <img src="assets/img/nav-comet.svg" alt="Comet navigation graphic" class="nav__image" />
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+        <i class="ri-menu-3-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <img src="assets/img/home-bg.svg" alt="Background illustration of space" class="home__bg" />
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            <span>WELCOME</span>
+            <span>TO THE</span>
+            <span>SPACE</span>
+          </h1>
+          <img src="assets/img/home-ovni.svg" alt="Flying UFO illustration" class="home__ufo" />
+          <img src="assets/img/home-img.png" alt="astronaut_fishing" class="home__img" />
+        </div>
+
+      </div>
+
+      <!--==================== Nasa API ====================-->
+      <div class="nasa__api">
+        <div class="nasa">
+          <h2 class="section__title">Astronomy <span>Picture of the Day</span></h2>
+          <div id="content_nasa">
+            <h2 id="title_nasa"></h2>
+            <p id="date_nasa"></p>
+            <img id="image_nasa" alt="NASA APOD">
+            <p id="explanation_nasa"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== Solar System ====================-->
+    <section class="travel section" id="travel">
+      <img src="assets/img/travel-lines.svg" alt="image" class="travel__lines" />
+
+      <div class="travel__container container">
+        <h2 class="section__title">SOLAR <span>SYSTEM</span></h2>
+        <div class="travel__swiper swiper">
+          <div class="swiper-wrapper">
+
+
+
+
+            <article class="travel__card swiper-slide">
+              <a href="https://en.wikipedia.org/wiki/Mercury_(planet)" target="_blank">
+                <img src="assets/img/mercury.png" alt="image" class="travel__image" />
+              </a>
+              <h3 class="travel__title">MERCURY</h3>
+              <span class="travel__info">92.00 million km</span>
+              <p class="travel__description">
+              <p>Moons: 0</p>
+              Mercury is the closest planet to the Sun, with a diameter of 4,880 km. It has no atmosphere, causing
+              extreme temperature variations, reaching 430°C during the day and -180°C at night. Mercury’s orbit takes
+              88 Earth days, and it rotates very slowly, completing one spin in 59 days. The planet's surface is heavily
+              cratered, similar to Earth's Moon. Mercury has no moons and a very weak magnetic field. Its surface
+              experiences intense solar radiation. Despite being closest to the Sun, it is not the hottest planet.
+              </p>
+            </article>
+
+
+            <article class="travel__card swiper-slide">
+              <a href="https://en.wikipedia.org/wiki/venus" target="_blank">
+                <img src="assets/img/venus.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">VENUS</h3>
+              <span class="travel__info">41.40 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 0</p>
+              Venus, with a diameter of 12,104 km, is Earth’s “sister planet” because of its similar size. Venus has a
+              thick, toxic atmosphere mainly of carbon dioxide, causing an extreme greenhouse effect that makes it the
+              hottest planet in the Solar System, with temperatures reaching 465°C. The planet rotates slowly in the
+              opposite direction to most planets, taking 243 Earth days to complete one rotation. Venus has no moons.
+              Its surface is covered by volcanic plains and mountain ranges. Despite its beauty, Venus’s surface is
+              uninhabitable.
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+
+
+
+
+
+              <a href="https://en.wikipedia.org/wiki/earth" target="_blank">
+                <img src="assets/img/earth.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">EARTH</h3>
+              <span class="travel__info">diameter: 12,742 km</span>
+
+              <p class="travel__description">
+              <p>Moons: 1</p>
+              Earth is the third planet from the Sun and the only astronomical object known to harbor life. It is unique
+              for supporting life, with diverse environments and only planet as of now with liquid water covering 71% of
+              its surface. Earth's atmosphere, composed mainly of nitrogen and oxygen, supports life. It has one moon,
+              which stabilizes its axial tilt. Earth's day lasts 24 hours, and its year is 365 days. Earth experiences
+              seasons due to its axial tilt, making it suitable for life. Earth is the only known planet to support
+              complex life forms.
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+
+
+
+
+              <a href="https://en.wikipedia.org/wiki/mars" target="_blank">
+                <img src="assets/img/mars.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">MARS</h3>
+              <span class="travel__info">78.34 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 2</p>
+              Mars, often called the "Red Planet," has a diameter of 6,779 km. The reddish hue comes from iron oxide, or
+              rust, on its surface. Mars has a thin atmosphere mostly made of carbon dioxide. Temperatures average
+              -60°C, but they can reach -125°C at the poles. Mars has two small moons, Phobos and Deimos. The planet’s
+              surface features include the largest volcano in the Solar System, Olympus Mons, and deep valleys,
+              including Valles Marineris. Mars shows signs of ancient water, with riverbeds and polar ice caps.
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+
+
+
+              <a href="https://en.wikipedia.org/wiki/Jupiter" target="_blank">
+                <img src="assets/img/jupiter.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">JUPITER</h3>
+              <span class="travel__info">628.73 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 95</p>
+              Jupiter is the largest planet in the Solar System, with a diameter of 139,820 km. It is a gas giant
+              composed mostly of hydrogen and helium. Jupiter has a Great Red Spot, a massive storm that has lasted for
+              centuries. Its atmosphere features high-speed winds and massive cloud bands. Jupiter has 95 known moons,
+              including four large Galilean moons: Io, Europa, Ganymede, and Callisto. The planet’s magnetic field is
+              the strongest of any planet, and it has a rapid rotation, completing one day in just 10 hours.
+
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+
+
+              <a href="https://en.wikipedia.org/wiki/saturn" target="_blank">
+                <img src="assets/img/saturn.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">SATURN</h3>
+              <span class="travel__info">1,275.50 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 146</p>
+              Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It has
+              a diameter of 116,460 km. It is a gas giant, primarily composed of hydrogen and helium, and is famous for
+              its beautiful ring system. The rings are made of ice and rock particles. Saturn has at least 146 moons,
+              with Titan being the largest. Titan is unique for having a thick atmosphere and lakes of liquid methane.
+              Saturn’s winds can reach speeds of 1,800 km/h. The planet’s rotation takes just 10.7 hours, but its orbit
+              around the Sun takes 29.5 Earth years.
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+
+              <a href="https://en.wikipedia.org/wiki/uranus" target="_blank">
+                <img src="assets/img/uranus.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">URANUS</h3>
+              <span class="travel__info">2,723.95 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 27</p>
+              Uranus is an ice giant with a diameter of 50,724 km. It is composed mainly of hydrogen, helium, and water,
+              along with methane, which gives it a pale blue color. Uranus is unique for its extreme axial tilt of 98
+              degrees, making it rotate on its side. This results in extreme seasonal variations. The planet has 27
+              known moons, including Miranda and Titania. Uranus has a faint ring system and experiences high-speed
+              winds. Its average surface temperature is -224°C, making it one of the coldest planets in the Solar
+              System.
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+
+              <a href="https://en.wikipedia.org/wiki/neptune" target="_blank">
+                <img src="assets/img/neptune.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">NEPTUNE</h3>
+              <span class="travel__info">4,353.00 million km</span>
+
+              <p class="travel__description">
+              <p>Moons: 14</p>
+              Neptune is the eighth planet from the Sun, with a diameter of 49,244 km. It is an ice giant composed
+              mostly of hydrogen, helium, and methane. Neptune has a deep blue color due to methane in its atmosphere.
+              It experiences the fastest winds in the Solar System, reaching 2,100 km/h. Neptune has 14 known moons.
+              Triton has retrograde motion, meaning it orbits Neptune in the opposite direction of the planet’s
+              rotation. Neptune's Great Dark Spot is a massive storm similar to Jupiter’s Red Spot.
+
+
+              </p>
+            </article>
+
+            <article class="travel__card swiper-slide">
+
+              <a href="https://en.wikipedia.org/wiki/pluto" target="_blank">
+                <img src="assets/img/pluto.png" alt="image" class="travel__image" /></a>
+              <h3 class="travel__title">PLUTO</h3>
+              <span class="travel__info">5,906.38 million km
+              </span>
+
+              <p class="travel__description">
+              <p>Moons: 5</p>
+              Pluto is a dwarf planet with a diameter of 2,377 km. It orbits in the Kuiper Belt beyond Neptune and has a
+              highly elliptical orbit. Pluto’s surface is a mix of rock and ice, and its thin atmosphere consists mainly
+              of nitrogen, with small amounts of methane and carbon monoxide. Pluto has five known moons, Styx, Nix,
+              Kerberos, Hydra, and Charon being the largest. The planet experiences extremely cold temperatures,
+              averaging around -225°C. Pluto was reclassified as a dwarf planet in 2006 by the International
+              Astronomical Union.
+
+
+              </p>
+            </article>
+
+
+            <article class="travel__card swiper-slide">
+              <a href="https://en.wikipedia.org/wiki/sun" target="_blank">
+                <img src="assets/img/travel-planet-2.svg" alt="image" class="travel__image" "/></a>
+              <h3 class=" travel__title">SUN</h3>
+                <span class="travel__info">150.00 million km</span>
+
+                <p class="travel__description">
+                  The Sun is a star at the center of the Solar System, providing essential light and heat to Earth.
+                  Composed mostly of hydrogen and helium, it undergoes nuclear fusion in its core. The Sun has a
+                  diameter
+                  of 1.39 million km and is 109 times larger than Earth. It’s approximately 4.6 billion years old. The
+                  Sun’s gravity keeps the planets in orbit, while its solar wind influences space weather. It will
+                  continue shining for about 5 billion more years, eventually expanding into a red giant.From Earth, it
+                  is
+                  1 astronomical unit (1.496×108 km) or 8 light-minutes away.
+                </p>
+            </article>
+
+          </div>
+        </div>
+        <!-- swiper-pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!--==================== EXPLORE  ISRO====================-->
+
+    <section class="explore section" id="explore">
+      <div class="explore__container container grid">
+        <div class="explore__data">
+          <h2 class="section__title">ISRO <span>Mission Chandrayaan</span></h2>
+          <p class="explore__description">
+            The Chandrayaan programme (Sanskrit: Candra 'Moon', Yāna 'Craft, Vehicle',)
+            also known as the Indian Lunar Exploration Programme is an ongoing series of outer
+            space missions by the Indian Space Research Organization (ISRO) for the exploration of the Moon. The program
+            incorporates a lunar orbiter, an impactor, a soft lander and a rover spacecraft.
+
+            There have been three missions so far with a total of two orbiters, landers and rovers each. While the two
+            orbiters were successful, the first lander and rover which were part of the Chandrayaan-2 mission, crashed
+            on the surface. The second lander and rover mission Chandrayaan-3 successfully landed on the Moon on 23
+            August 2023, making India the first nation to successfully land a spacecraft in the lunar south pole region,
+            and the fourth country to soft land on the Moon after the Soviet Union, the United States and China.
+
+          <div>
+            <a href="https://en.wikipedia.org/wiki/Chandrayaan_programme" class="button" target="_blank">Learn More</a>
+          </div>
+          </p>
+
+
+
+        </div>
+        <img src="assets/img/explore-img.png" alt="image" class="explore__img">
+      </div>
+    </section>
+
+
+    <!--==================== HISTORY ====================-->
+    <section class="history section" id="history">
+      <h2 class="section__title">
+        SPACE TRAVEL <SPAN>HISTORY</SPAN>
+      </h2>
+
+      <img src="assets/img/history-planet-1.svg" alt="image" class="history__planet-1">
+      <img src="assets/img/history-planet-2.svg" alt="image" class="history__planet-2">
+
+      <!-- timeline -->
+      <div class="iframe-container">
+        <iframe
+          src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1x6bDO0UJ5bIFEeMAt4MI69l0A--fyu68M6GfiPwaVfY&font=Default&lang=en&initial_zoom=3&height=450"
+          width="70%" height="450" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0">
+        </iframe>
+        <p class="timeline-message">
+          Explore the fascinating history of space travel by scrolling the timeline.
+        </p>
+      </div>
+      <div class="parent-container">
+        <a href="https://www.unoosa.org/oosa/timeline/" class="button2" target="_blank">Space Timeline</a>
+      </div>
+
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section">
+      <h2 class="section__title">
+        GET OUR <span>LATEST NEWS</span>
+      </h2>
+
+      <h3 class="notice">
+        Coming Soon . . . . .
+      </h3>
+
+      <div class="contact__container container grid">
+        <form action="" class="contact__form">
+          <input type="email" placeholder="Email address" name="email" autocomplete="email" class="contact__input">
+          <button type="submit" class="button button__yellow">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <img src="assets/img/footer-planet-1.svg" alt="image" class="footer__planet-1">
+      <img src="assets/img/footer-planet-2.svg" alt="image" class="footer__planet-2">
+
+
+      <div class="footer__content grid">
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">HOME</a></li>
+          <li><a href="#" class="footer__link">TRAVEL</a></li>
+          <li><a href="#" class="footer__link">EXPLORE</a></li>
+        </ul>
+
+        <div class="footer__social">
+          <a href="https://www.facebook.com/ISRO/" target="_blank" class="footer__social-link">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.instagram.com/isro.dos/?hl=en" target="_blank" class="footer__social-link">
+            <i class="ri-instagram-fill"></i>
+          </a>
+          <a href="https://x.com/isro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+            class="footer__social-link">
+            <i class="ri-twitter-x-fill"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="poc-container">
+      <p class="poc-details">
+        <span class="footer__copy">
+          Nirbhay Kumar &#169; 2024-2025
+        </span>
+        <strong>Email:</strong> nirbhay.24bcs10030@scaler.sst.com <br>
+        <strong>Address:</strong> 123 Electronic City, Bengaluru, India.
+      </p>
+    </div>
+  
+
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

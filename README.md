@@ -33,17 +33,15 @@ Note:- CSS and Js files are inside the assets folder.
 ## 📂 Project Structure
 
 ```
-├── src/
-│   ├── assets/       # Images, icons, and media files
-│   ├── components/   # Reusable components (e.g., timeline, cards)
-│   ├── pages/        # Web pages (e.g., timeline, planets, missions)
-│   ├── utils/        # Helper functions and API integrations
-│   └── index.html    # Main entry point
-├── styles/           # CSS/SCSS for styling
-├── README.md         # Project documentation
-├── package.json      # Dependencies and scripts
-└── netlify.toml      # Netlify deployment settings
-```
+├── index.html   # Html code
+├── README.md    # Project documentation
+├── assets/
+│   ├── css      # CSS/SCSS for styling   
+│   ├── img      # Images, icons, and media files 
+│   └── js       # javaScript functions and API integration
+│        
+└── netlify       # Hosted on netlify     
+
 
 ## 🚀 Getting Started
 
@@ -52,11 +50,21 @@ Note:- CSS and Js files are inside the assets folder.
 - Just Make an account on Netlify (if you want to host it here)
 
 
-### Deployment
+## Deployment
 Deployed using [Netlify](https://www.netlify.com/).   
 
 
+## Website SnapShots
 
 
- 
+![Landing Page](https://github.com/user-attachments/assets/f41608ad-f586-4fed-8784-07b54cd266ae)
+
+![Nasa APOD api](https://github.com/user-attachments/assets/96de9199-a432-4694-90c8-3e93d2752440)
+
+![Solar System](https://github.com/user-attachments/assets/d10fc347-dc01-4142-89dd-33e555a6e897)
+
+![isro](https://github.com/user-attachments/assets/36174eac-ba7e-431b-9714-79c4a560bf08)
+
+ ![Space travel Timeline](https://github.com/user-attachments/assets/ea7c551a-ee23-43d7-81c0-6a8a5d1251d7)
+
 

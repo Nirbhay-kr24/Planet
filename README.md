@@ -55,4 +55,13 @@ Deployed using [Netlify](https://www.netlify.com/).
 
 ## Website SnapShots
 
+![Landing Page](https://github.com/Nirbhay-kr24/Planet/blob/db57dd9e32f1d4102a5878cd9eb359f9ef65f7ad/Website%20Preview/1.Landing%20Page.png)
+
+![Nasa APOD api](https://github.com/Nirbhay-kr24/Planet/blob/db57dd9e32f1d4102a5878cd9eb359f9ef65f7ad/Website%20Preview/2.Nasa%20APOD%20api.png)
+
+![Solar System](https://github.com/Nirbhay-kr24/Planet/blob/db57dd9e32f1d4102a5878cd9eb359f9ef65f7ad/Website%20Preview/3.Solar%20System.png)
+
+![Isro](https://github.com/Nirbhay-kr24/Planet/blob/db57dd9e32f1d4102a5878cd9eb359f9ef65f7ad/Website%20Preview/4.isro.png)
+
+![Space travel Timeline](https://github.com/Nirbhay-kr24/Planet/blob/db57dd9e32f1d4102a5878cd9eb359f9ef65f7ad/Website%20Preview/5.Space%20travel%20Timeline.png)
 

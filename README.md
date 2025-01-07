@@ -1,13 +1,12 @@
 # Planet
-Website related to space travel history and planets info.
+# Welcome To The Space
 
-CSS and Js files are inside the assets folder.
+Note:- CSS and Js files are inside the assets folder.
 
-Code used:- HTML
-CSS
-Js
-timeline.js
-Swiper js
-swiper css
-scrollReveal js
+## Resources Used
+- HTML
+- CSS
+- JavaScript
+- timeline.js
+- scrollReveal.js
 

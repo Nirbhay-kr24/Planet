@@ -20,7 +20,20 @@ Note:- CSS and Js files are inside the assets folder.
 
 ## 🛰️ APIs Used
 
-- **NASA APOD APIs**: For Astronomy picture of the day.  
+- **NASA APOD APIs**: For Astronomy picture of the day.
+
+  ## 📂 Project Structure
+
+```
+├── index.html      # Html code
+├── README.md       # Project documentation
+├── assets/
+│   ├── css         # CSS/SCSS for styling   
+│   ├── img         # Images, icons, and media files 
+│   └── js          # javaScript functions and API integration
+├── Website Preview # preview website images        
+└── netlify         # Hosted on netlify     
+```
 
 ## 🌌 Features
 
@@ -30,41 +43,16 @@ Note:- CSS and Js files are inside the assets folder.
 - **Interactive Animations**: Engaging user experience with ScrollReveal.js for smooth animations.  
 - **Modern Hosting**: Deployed on Netlify for fast and reliable access.
 
-## 📂 Project Structure
-
-```
-├── index.html   # Html code
-├── README.md    # Project documentation
-├── assets/
-│   ├── css      # CSS/SCSS for styling   
-│   ├── img      # Images, icons, and media files 
-│   └── js       # javaScript functions and API integration
-│        
-└── netlify       # Hosted on netlify     
-
-
 ## 🚀 Getting Started
 
 ### Prerequisites
 - No Priorities
 - Just Make an account on Netlify (if you want to host it here)
 
-
 ## Deployment
 Deployed using [Netlify](https://www.netlify.com/).   
 
 
 ## Website SnapShots
-
-
-![Landing Page](https://github.com/user-attachments/assets/f41608ad-f586-4fed-8784-07b54cd266ae)
-
-![Nasa APOD api](https://github.com/user-attachments/assets/96de9199-a432-4694-90c8-3e93d2752440)
-
-![Solar System](https://github.com/user-attachments/assets/d10fc347-dc01-4142-89dd-33e555a6e897)
-
-![isro](https://github.com/user-attachments/assets/36174eac-ba7e-431b-9714-79c4a560bf08)
-
- ![Space travel Timeline](https://github.com/user-attachments/assets/ea7c551a-ee23-43d7-81c0-6a8a5d1251d7)
 
 
